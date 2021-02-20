@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: .1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+.header_left{
+    display: flex;
+}
+
+.header_search{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: grey;
+    background-color: #eef3f8;
+}
+.icon{
+    margin-right: 10px;
+}
+
+.header_search > input{
+outline: none;
+background: none;
+border:none;
+}
+
+.header_right{
+    display: flex;
+}
